@@ -1,0 +1,53 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+.installed.cfg
+
+# --- Virtualenv ---
+.venv/
+venv/
+env/
+.python-version
+
+# --- IDE ---
+.idea/
+.vscode/
+.DS_Store
+*.swp
+*.swo
+
+# --- Secrets ---
+.env
+.env.local
+*.pem
+*.key
+
+# --- Data and model artefacts (excluded by design) ---
+# Note: leading slash anchors at repo root so we do NOT ignore mas/data/
+/data/
+/results/
+/figures/
+/logs/
+
+# --- Hugging Face / torch caches ---
+.cache/
+.huggingface/
+~/.cache/
+
+# --- Test / coverage ---
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb

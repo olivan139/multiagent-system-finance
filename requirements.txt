@@ -1,0 +1,38 @@
+# Core (Phase 1)
+scikit-learn>=1.4
+datasets>=2.18
+pandas>=2.2
+numpy>=1.26
+matplotlib>=3.8
+seaborn>=0.13
+tqdm>=4.66
+python-dotenv>=1.0
+
+# Transformers (Phase 2)
+transformers>=4.38
+torch>=2.2
+accelerate>=0.27
+
+# LLM Agents (Phase 2-4)
+openai>=1.12
+langgraph>=0.2
+langchain-openai>=0.1
+langchain-core>=0.2
+
+# Statistical tests, ensembles, interpretability (Phase 5)
+scipy>=1.11
+statsmodels>=0.14
+xgboost>=2.0
+shap>=0.44
+
+# Lexicon agent (Loughran-McDonald master dictionary, Porter-stemmed)
+pysentiment2>=0.3
+
+# Presentation generation
+python-pptx>=0.6.21
+streamlit>=1.31
+
+# Downstream signal test (Section 5.X)
+yfinance>=0.2
+pyarrow>=14
+requests>=2.31
